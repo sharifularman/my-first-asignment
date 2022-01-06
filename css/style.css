@@ -1,0 +1,201 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 50px;
+    padding: 0;
+    background-image: linear-gradient(45deg,lemonchiffon,lightcyan);
+}
+
+.heading{
+    border-left: 3.5px solid #f3480a;
+    padding-left: 25px;
+    font-weight: 700px;
+    font-size: 30px;  
+    position: relative;
+}
+
+.color{
+    color: #f3480a;
+}
+.btn{
+    background-image: linear-gradient(90deg, #c34311,#9c082d);
+    padding: 15px 25px;
+    text-decoration: none;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+.btn:hover{
+    color: #e8ec0c;
+    transition: 0.2s;
+}
+.scroll-down{
+    font-size: 15px;
+}
+section{
+    display: flex;
+    justify-content:space-around ;
+   
+    
+}
+div img{
+    width: 50%;
+    margin-top: 0;
+   
+}
+
+/*.person-img{
+    width: 50%;
+    padding: auto;
+    margin: 0 auto;
+}*/
+h2{
+    padding-top: 100px;
+    color: #0b9cdfea;
+    font-size: 25px;
+    text-align: center;
+}
+span{
+    color: #08951b;
+}
+.card{
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.card-design-1{
+    width: 300px;
+   border-radius: 10px;
+   background-image: linear-gradient(45deg, #11c37f,orangered);
+   justify-content: space-around;
+  box-shadow: 1px 4px 4px 2px rgba(10, 62, 122, 0.924);
+   
+ 
+}
+.img-style-1{
+    width: 100%;
+}
+.card-title{
+    text-align: center;
+    font-weight: bold;
+}
+.card-desc{
+    text-align: justify;
+   color: black;
+   padding: 0 5px 5px 5px;
+}
+.card-design-2{
+    width: 300px;
+   border-radius: 10px;
+   background-image: linear-gradient(45deg, #1c4e9e,#79cf09);
+   box-shadow: 1px 3px 4px 2px #17ebe0ec;
+}
+.img-style-2{
+    width: 100%;
+}
+.card-design-3{
+    width: 300px;
+   border-radius: 10px;
+   background-image: linear-gradient(45deg, #ebb111,#950b95);
+   box-shadow: 1px 4px 4px 2px #d18c0bec;
+}
+.img-style-3{
+    width: 100%;
+}
+.coding{
+    width: 50%;
+    padding-left: 100px;
+}
+.coding-img{
+    background-image: url(images/shapes/shape-1,png);
+    padding-left: 30px;
+}
+.skil-talk{
+    padding-bottom: 100px;
+}
+.dev{
+    font-size: 25px;
+}
+.limits-color{
+    color: red;
+    font-size: 25px;
+
+}
+.know-the-world{
+    font-size: 25px;
+}
+
+.my-projects{
+   padding:0 60px 0 100px; 
+}
+.my-skills{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#dev-skills{
+    padding-bottom: 50px;
+}
+.html-skills{
+    width: 250px;
+    background-image: linear-gradient(180deg,rgba(165, 51, 10, 0.424), rgba(8, 8, 112, 0.603));
+    border: 1px solid gray;
+    box-shadow: 2px 1px 1px 2px rgb(7, 101, 117);
+    box-sizing: border-box; 
+    margin: 0 5px;
+}
+.html-logo{
+    width: 100%;
+}
+.html{
+    color: #d14b0c; 
+    font-weight: bold;
+}
+.text{
+    text-align: justify;
+    font-weight: bold;
+    padding:0 5px 5px 5px;
+}
+.css-skills{
+    width: 250px;
+    background-image: linear-gradient(180deg,#08a7226c, #3232a7be);
+    border: 1px solid gray;
+    box-shadow: 2px 1px 1px 2px #0b30ac;
+    box-sizing: border-box; 
+    margin: 0 5px;
+}
+.css-logo{
+    width: 100%;
+   
+}
+.css{
+    color: blue;
+    font-weight: bold;
+}
+.js-skills{
+    width: 250px;
+    background-image: linear-gradient(180deg,rgba(165, 51, 10, 0.424), #0808709a);
+    border: 1px solid gray;
+    box-shadow: 2px 1px 1px 2px #7fa307;
+    box-sizing: border-box; 
+    margin: 0 5px;
+}
+.js-logo{
+    width: 100%;
+}
+.js{
+    color: #e7c312;
+    font-weight: bold;
+}
+footer{
+    margin-top: 100px;
+    padding: 10px ;
+    color: white;
+    background-image: linear-gradient(180deg,orangered, #e00d30);
+    text-align: center;
+    font-size: 25px;
+}
+
