@@ -5,7 +5,7 @@ body{
     background-image: linear-gradient(45deg,lemonchiffon,lightcyan);
 }
 
-.heading{
+ #first-banner .heading{
     border-left: 3.5px solid #f3480a;
     padding-left: 25px;
     font-weight: 700px;
@@ -34,6 +34,7 @@ body{
 .scroll-down{
     font-size: 15px;
 }
+
 section{
     display: flex;
     justify-content:space-around ;
@@ -45,12 +46,6 @@ div img{
     margin-top: 0;
    
 }
-
-/*.person-img{
-    width: 50%;
-    padding: auto;
-    margin: 0 auto;
-}*/
 h2{
     padding-top: 100px;
     color: #0b9cdfea;
@@ -139,7 +134,7 @@ span{
 #dev-skills{
     padding-bottom: 50px;
 }
-.html-skills{
+#dev-skills .html-skills{
     width: 250px;
     background-image: linear-gradient(180deg,rgba(165, 51, 10, 0.424), rgba(8, 8, 112, 0.603));
     border: 1px solid gray;
@@ -159,7 +154,7 @@ span{
     font-weight: bold;
     padding:0 5px 5px 5px;
 }
-.css-skills{
+#dev-skills .css-skills{
     width: 250px;
     background-image: linear-gradient(180deg,#08a7226c, #3232a7be);
     border: 1px solid gray;
